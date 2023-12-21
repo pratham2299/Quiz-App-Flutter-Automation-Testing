@@ -61,7 +61,7 @@ public class BaseTest {
 	//	options.setCapability("appPackage",
 	//			"com.example.quiz_app_riverpod");
 	//	options.setCapability("appActivity", "com.example.quiz_app_riverpod.MainActivity");
-		options.setCapability("app", "build/app/outputs/flutter-apk/app-debug.apk");
+		options.setCapability("app", "flutter_app_test1/build/app/outputs/flutter-apk/app-debug.apk");
 	//	options.setCapability("app", "C:\\Users\\Lenovo\\Downloads\\quiz flutter app.apk");
 		options.setCapability("settings[ignoreUnimportantViews]", true);
 		driver = new AndroidDriver(new URL("http://127.0.0.1:4723/"), options);
