@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="59.21" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Lenovo\eclipse-workspace\QuizAppFlutterTesting\target\test-classes;C:\Users\Lenovo\eclipse-workspace\QuizAppFlutterTesting\target\classes;C:\Users\Lenovo\.m2\repository\io\appium\java-client\9.0.0\java-client-9.0.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\Lenovo\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Lenovo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Lenovo\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Lenovo\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Lenovo\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Lenovo\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\Lenovo\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\Lenovo\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Lenovo\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Lenovo\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Lenovo\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Lenovo\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.0\log4j-core-2.22.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.0\log4j-api-2.22.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\Lenovo\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Lenovo\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Lenovo\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Lenovo\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire790679102286343186\surefirebooter-20231201125055002_3.jar C:\Users\Lenovo\AppData\Local\Temp\surefire790679102286343186 2023-12-01T12-50-54_801-jvmRun1 surefire-20231201125055002_1tmp surefire_0-20231201125055002_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Lenovo\eclipse-workspace\QuizAppFlutterTesting\target\test-classes;C:\Users\Lenovo\eclipse-workspace\QuizAppFlutterTesting\target\classes;C:\Users\Lenovo\.m2\repository\io\appium\java-client\9.0.0\java-client-9.0.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\Lenovo\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Lenovo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Lenovo\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Lenovo\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Lenovo\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Lenovo\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Lenovo\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\Lenovo\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Lenovo\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\Lenovo\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Lenovo\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Lenovo\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Lenovo\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Lenovo\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.0\log4j-core-2.22.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.0\log4j-api-2.22.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\Lenovo\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Lenovo\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Lenovo\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Lenovo\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Lenovo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\Lenovo\eclipse-workspace\QuizAppFlutterTesting"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire790679102286343186\surefirebooter-20231201125055002_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.8+9-LTS-211"/>
+    <property name="user.name" value="Lenovo"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Lenovo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Lenovo\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.8"/>
+    <property name="user.dir" value="C:\Users\Lenovo\eclipse-workspace\QuizAppFlutterTesting"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Git\cmd;C:\Users\Lenovo\Desktop\selenium-jar\apache-maven-3.9.4-bin\apache-maven-3.9.4\bin;C:\Program Files\Java\jdk-17;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jdk-17\lib;C:\Program Files\nodejs\;C:\Users\Lenovo\Desktop\selenium-jar\apache-maven-3.9.4-bin\apache-maven-3.9.4;C:\Program Files\Android\Android Studio\bin;C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools;C:\Users\Lenovo\AppData\Local\Android\Sdk\tools;C:\Users\Lenovo\AppData\Local\Android\Sdk\build-tools;C:\Users\Lenovo\Downloads\flutter_windows_3.13.9-stable\flutter\bin;C:\Users\Lenovo\AppData\Local\Android\Sdk\platforms;C:\Users\Lenovo\AppData\Local\Android\Sdk\tools\bin;C:\Users\Lenovo\Downloads\allure-2.24.1\allure-2.24.1\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Roaming\npm;C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.8+9-LTS-211"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="mathQuiz" classname="testcases.MathModule" time="40.265">
+    <failure message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [660748b3-b6da-43eb-9786-ddbc6a87b4ae, findElement {using=xpath, value=//android.view.View[@content-desc=&quot;Hii Pamela&quot;]}]&#10;Capabilities {appium:app: , appium:automationName: UIAutomator2, appium:avd: Pixel_7_API_33, appium:databaseEnabled: false, appium:desired: {app: , automationName: UIAutomator2, avd: Pixel_7_API_33, deviceName: Pixel 7 API 33, platformName: ANDROID}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 13, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 2274, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: 660748b3-b6da-43eb-9786-ddbc6a87b4ae" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [660748b3-b6da-43eb-9786-ddbc6a87b4ae, findElement {using=xpath, value=//android.view.View[@content-desc="Hii Pamela"]}]
+Capabilities {appium:app: , appium:automationName: UIAutomator2, appium:avd: Pixel_7_API_33, appium:databaseEnabled: false, appium:desired: {app: , automationName: UIAutomator2, avd: Pixel_7_API_33, deviceName: Pixel 7 API 33, platformName: ANDROID}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 13, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 2274, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 660748b3-b6da-43eb-9786-ddbc6a87b4ae
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:238)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at testcases.MathModule.mathQuiz(MathModule.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[ERROR StatusConsoleListener File contains invalid attributes "Layout", "target"
+12:50:57.210 [main] INFO  testcases.BaseTest - appium server started
+12:50:57.222 [main] INFO  testcases.BaseTest - URl: http://127.0.0.1:4723/
+12:50:57.236 [main] INFO  testcases.BaseTest - is server running: true
+&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v2.2.1
+&amp#27;[35m[Appium]&amp#27;[39m Non-default server args:
+&amp#27;[35m[Appium]&amp#27;[39m { address: &amp#27;[32m'127.0.0.1'&amp#27;[39m }
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver flutter...
+&amp#27;[35m[Appium]&amp#27;[39m Requiring driver at C:\Users\Lenovo\.appium\node_modules\appium-flutter-driver
+12:51:14.092 [main] INFO  testcases.BaseTest - Application started successfully
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver uiautomator2...
+&amp#27;[35m[Appium]&amp#27;[39m Requiring driver at C:\Users\Lenovo\.appium\node_modules\appium-uiautomator2-driver
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver xcuitest...
+&amp#27;[35m[Appium]&amp#27;[39m Requiring driver at C:\Users\Lenovo\.appium\node_modules\appium-xcuitest-driver
+&amp#27;[35m[Appium]&amp#27;[39m Appium REST http interface listener started on http://127.0.0.1:4723
+&amp#27;[35m[Appium]&amp#27;[39m Available drivers:
+&amp#27;[35m[Appium]&amp#27;[39m   - flutter@2.2.0 (automationName 'Flutter')
+&amp#27;[35m[Appium]&amp#27;[39m   - uiautomator2@2.33.1 (automationName 'UiAutomator2')
+&amp#27;[35m[Appium]&amp#27;[39m   - xcuitest@5.8.1 (automationName 'XCUITest')
+&amp#27;[35m[Appium]&amp#27;[39m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/session/e65a1b18-1e44-417b-890d-a9643318710b/timeouts&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m Encountered internal error running command: NoSuchDriverError: A session is either terminated or not started
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at asyncHandler (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:315:15)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:518:15
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at Layer.handle [as handle_request] (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at next (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\route.js:144:13)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at Route.dispatch (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\route.js:114:3)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at Layer.handle [as handle_request] (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:284:15
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at param (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:365:14)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at param (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:376:14)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at Function.process_params (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:421:3)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at next (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:280:10)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at logger (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\morgan\index.js:144:5)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at Layer.handle [as handle_request] (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at trim_prefix (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:328:13)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:286:9
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at Function.process_params (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:346:12)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at next (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:280:10)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at jsonParser (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\body-parser\lib\types\json.js:113:7)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at Layer.handle [as handle_request] (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at trim_prefix (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:328:13)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:286:9
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at Function.process_params (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:346:12)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at next (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:280:10)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at Layer.handle [as handle_request] (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\layer.js:91:12)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at trim_prefix (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:328:13)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:286:9
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at Function.process_params (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:346:12)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at next (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:280:10)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at methodOverride (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\method-override\index.js:65:14)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at Layer.handle [as handle_request] (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at trim_prefix (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:328:13)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:286:9
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at Function.process_params (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:346:12)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at next (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:280:10)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at urlencodedParser (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at Layer.handle [as handle_request] (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at trim_prefix (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:328:13)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:286:9
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at Function.process_params (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:346:12)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at next (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:280:10)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at defaultToJSONContentType (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\express\middleware.js:58:3)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at Layer.handle [as handle_request] (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at trim_prefix (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:328:13)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:286:9
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at Function.process_params (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:346:12)
+&amp#27;[38;5;16m[AppiumDriver@9eb2]&amp#27;[0m     at next (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:280:10)
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /session/e65a1b18-1e44-417b-890d-a9643318710b/timeouts &amp#27;[39m&amp#27;[33m404&amp#27;[39m &amp#27;[90m60 ms - 6633&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+</testsuite>
